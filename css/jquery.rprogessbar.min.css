@@ -1,0 +1,99 @@
+.progressbar {
+    width: 300px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    position: relative;
+    background-color: #f4f4f4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.proggress {
+    height: 8px;
+    width: 10px;
+    background-color: #ff0;
+}
+
+.percentCount {
+    float: right;
+    margin-top: -58px;
+    clear: both;
+    font-weight: 700;
+    font-size: 13px;
+    color: #f0acac;
+    transform: rotate(90deg);
+}
+
+.single-progressbar .title {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    transform: translateX(30%);
+    color: #e1e1e1;
+}
+
+.single-progressbar {
+    margin-bottom: 30px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card .card-header .title {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.card .card-body code {
+    background-color: #efecec;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.header .title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.header .title::first-letter {
+    color: #fc4444;
+}
+
+.margin-top-60 {
+    margin-top: 60px;
+}
+
+ul.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 40px;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu li a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 500ms;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    color: #fc4444;
+}
+
+ul.menu li+li {
+    margin-left: 25px;
+}
